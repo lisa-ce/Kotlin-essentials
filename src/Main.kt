@@ -67,9 +67,40 @@
 
 //lesson 5 char and boolean
 
+//fun main(){
+//  val myCharValue:Char = 'D'
+//    val myBoolValue:Boolean = true
+//  println(myCharValue)
+//    println(myBoolValue)
+//}
+
+//lesson 6 operations
 fun main(){
-  val myCharValue:Char = 'D'
-    val myBoolValue:Boolean = true
-  println(myCharValue)
-    println(myBoolValue)
+    var x=5
+    var y=3
+
+    println("x+y= ${x+y}")
+    println("x-y= ${x-y}")
+    println("y*x= ${y*x}")
+    println("x/y= ${x/y}")
+    println("x%y*= ${x%x}")
+
+    println("3 +3 * 4 ${3+3*4}")
+
+    var result=x+y
+    result += 2
+    result -= 2
+    result *= 2
+    result /= 2
+    result %= 2
+    x=0
+    println(x++)
+    println(++x)
+    println(x--)
+    println(--x)
+val isActive=true
+    if(isActive==true){
+        println("true")
+    }
+
 }
