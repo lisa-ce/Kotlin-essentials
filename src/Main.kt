@@ -6,14 +6,70 @@
 
 //lesson variables
 
-fun main() {
-    var userName:String="Lisa"
-    userName="Daisy"
-    val pi:Int = 5
-    var age:Int=22
-    age=25
-    println("Hello $userName you are $age years old!")
+//fun main() {
+//    var userName:String="Lisa"
+//    userName="Daisy"
+//    val pi:Int = 5
+//    var age=22//removed int can be infered
+//    age=25
+//    println("Hello $userName you are $age years old!")
+//}
+
+
+//lesson 3 integer datatypes
+//fun main(){
+//    val number=23
+//    val integerMaxValue=Int.MAX_VALUE
+//    val integerMinValue=Int.MIN_VALUE
+//
+//    println("integerMaxValue: $integerMaxValue")
+//    println("integerMinValue: $integerMinValue")
+////    number= 214748364723 bigger than
+//
+//
+//    val byteMaxValue=Byte.MAX_VALUE
+//    val byteMinValue=Byte.MIN_VALUE
+//    println("byte max value: $byteMaxValue")
+//    println("byte min value: $byteMinValue")
+//
+//    val shortMaxValue=Short.MAX_VALUE
+//    val shortMinValue=Short.MIN_VALUE
+//    println("short max value: $shortMaxValue")
+//    println("short min value: $shortMinValue")
+//
+//    val longMaxValue=Long.MAX_VALUE
+//    val longMinValue=Long.MIN_VALUE
+//    println("long max value: $longMaxValue")
+//    println("long min value: $longMinValue")
+//
+//    val floatMaxValue=Float.MAX_VALUE
+//    val floatMinValue=Float.MIN_VALUE
+//    println("float max value: $floatMaxValue")
+//    println("float min value: $floatMinValue")
+//
+//val myNumber:Byte=28
+//    val number1=28L
+//
+//
+//}
 
 
 
+//LESSON 4 FLOAT AND DOUBLE
+
+//fun main(args: Array<String>) {
+//    val myNumber=2.5F
+//    val mySecondNumber=3.0
+//
+//    println("my number is $myNumber")
+//    println("my second number is $mySecondNumber")
+//}
+
+//lesson 5 char and boolean
+
+fun main(){
+  val myCharValue:Char = 'D'
+    val myBoolValue:Boolean = true
+  println(myCharValue)
+    println(myBoolValue)
 }
