@@ -75,32 +75,73 @@
 //}
 
 //lesson 6 operations
-fun main(){
-    var x=5
-    var y=3
+//fun main(){
+//    var x=5
+//    var y=3
+//
+//    println("x+y= ${x+y}")
+//    println("x-y= ${x-y}")
+//    println("y*x= ${y*x}")
+//    println("x/y= ${x/y}")
+//    println("x%y*= ${x%x}")
+//
+//    println("3 +3 * 4 ${3+3*4}")
+//
+//    var result=x+y
+//    result += 2
+//    result -= 2
+//    result *= 2
+//    result /= 2
+//    result %= 2
+//    x=0
+//    println(x++)
+//    println(++x)
+//    println(x--)
+//    println(--x)
+//val isActive=true
+//    val myNumber=5
+//    if(myNumber>=5){
+//        println("myNumber is inactive")
+//    }else{
+//        println("myNumber is active")
+//    }
 
-    println("x+y= ${x+y}")
-    println("x-y= ${x-y}")
-    println("y*x= ${y*x}")
-    println("x/y= ${x/y}")
-    println("x%y*= ${x%x}")
-
-    println("3 +3 * 4 ${3+3*4}")
-
-    var result=x+y
-    result += 2
-    result -= 2
-    result *= 2
-    result /= 2
-    result %= 2
-    x=0
-    println(x++)
-    println(++x)
-    println(x--)
-    println(--x)
-val isActive=true
-    if(isActive==true){
-        println("true")
+//    if(myNumber<=5){
+//        println("myNumber is inactive")
+//    }else{
+//        println("myNumber is active")
+//    }
+    if(myNumber!=5){
+        println("myNumber is inactive")
+    }else{
+        println("myNumber is active")
     }
 
+//    if(isActive==true){
+//        println("true")
+//    }
+//else{
+//    println("false")
+//    }
+//   val text= if(myNumber>0 || myNumber<0){
+//        println("myNumber is inactive")
+//       "This is text1"
+//    }else{
+//        println("myNumber is active")
+//       "This is text2"
+//    }
+//  val text= if(myNumber>0 || myNumber<0)
+//
+//       "This is text1"
+//    else
+//
+//      "This is text2"
+//
+//    println("$text")
+//}
+
+
+//lesson 6 null value
+fun main(){
+    
 }
